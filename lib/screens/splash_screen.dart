@@ -13,7 +13,7 @@ class SplashScreen extends StatelessWidget {
             "Better Buys",
             style: GoogleFonts.pacifico(
               color: const Color(0xff4e8488),
-              fontSize: 28,
+              fontSize: 30,
             ),
           ),
         ),
