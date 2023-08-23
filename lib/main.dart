@@ -1,5 +1,6 @@
 import 'package:better_buys/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
+import "./screens/sellers_screen.dart";
 
 void main() => runApp(const MyApp());
 
@@ -17,6 +18,9 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const SplashScreen(),
+      routes: {
+        SellersScreen.routeName: (context) => const SellersScreen(),
+      },
     );
   }
 }
